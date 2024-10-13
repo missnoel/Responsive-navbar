@@ -29,9 +29,9 @@ app.js: Implements the JavaScript functionality to toggle the visibility of the 
 #### HTML Structure (index.html)
 The HTML includes a nav element containing:
 - A logo inside a div with the class nav-header.
-- A hamburger menu button (<button class="nav-toggle">) that toggles the visibility of the links on smaller screens.
-- An unordered list of navigation links (<ul class="links">).
-- A list of social media icons with anchor links (<ul class="social-icons">).
+- A hamburger menu button (<button `class="nav-toggle"`>) that toggles the visibility of the links on smaller screens.
+- An unordered list of navigation links (`<ul class="links">`).
+- A list of social media icons with anchor links (`<ul class="social-icons">`).
 
 #### CSS (styles.css)
 - Media Queries: The layout changes based on screen size using media queries. On screens wider than 768px, the links are shown by default, and the toggle button is hidden. On smaller screens, the links are hidden, and the toggle button is displayed.
@@ -40,5 +40,5 @@ The HTML includes a nav element containing:
 
 #### JavaScript (app.js)
 Adds event listeners to the toggle button:
-When clicked, it toggles the class show-links on the navigation links list (<ul class="links">), controlling whether the links are visible on small screens.
+When clicked, it toggles the class show-links on the navigation links list (`<ul class="links">`), controlling whether the links are visible on small screens.
 Toggle Functionality: The classList.toggle() method is used to show or hide the links dynamically.
